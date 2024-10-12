@@ -1,0 +1,40 @@
+# Nombre del proyecto.
+name: control3_flutter
+
+# Descripción breve del proyecto.
+description: "A new Flutter project."
+
+# Evita que el paquete se publique accidentalmente en pub.dev.
+publish_to: 'none'
+
+# Define la versión y el número de compilación de la aplicación.
+version: 1.0.0+1
+
+# Define el entorno de SDK requerido.
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+# Dependencias necesarias para que el proyecto funcione.
+dependencies:
+  flutter:
+    sdk: flutter
+  # Paquete para realizar solicitudes HTTP.
+  http: ^0.13.3
+  # Paquete para la gestión del estado.
+  provider: ^6.1.2 
+  # Paquete para enviar correos electrónicos.
+  mailer: ^5.0.0
+  # Paquete para iconos estilo iOS.
+  cupertino_icons: ^1.0.6
+
+# Dependencias necesarias solo para el desarrollo y pruebas.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Paquete que contiene un conjunto de reglas de lint recomendadas.
+  flutter_lints: ^3.0.0
+
+# Configuración específica de Flutter.
+flutter:
+  # Asegura que la fuente de Material Icons esté incluida en la aplicación.
+  uses-material-design: true
